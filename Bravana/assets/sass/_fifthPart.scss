@@ -1,0 +1,31 @@
+.fifthPart{
+    margin-top: 5%;
+    h1, h4, p{
+        font-family: Lato, sans-serif;
+    }
+    .main{
+        padding-bottom: 3%;
+    }
+    .fa{
+        float: left;
+        font-size: 3em;
+        margin-right: 2%;
+        color: #69B417;
+    }
+    .fa-puzzle-piece, .fa-thumbs-up, .fa-heart, .fa-gift, .fa-bars, .fa-certificate{
+        margin-right: 8%;
+    }
+    h4, h1{
+        color: #636363;
+        margin-left: 1%;
+    }
+    p{
+        margin-left: 20%;
+        color: #636363;
+    }
+    .heart{
+        p{
+            margin-left: 21%;
+        }
+    }
+}

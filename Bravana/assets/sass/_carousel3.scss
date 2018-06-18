@@ -1,0 +1,20 @@
+#carousel3{
+    margin:5% 0% 5% 0%;
+    .item{
+        height: 400px;
+    }
+    .item1{
+        background: url("../image/photo1.jpg") no-repeat center/contain;
+    }
+    .item2{
+        background: url("../image/photo2.jpg") no-repeat center/contain;
+    }
+    .item3{
+        background: url("../image/photo3.png") no-repeat center/contain;
+    }
+    .row{
+        .col-lg-12{
+            text-align: center;
+        }
+    }
+}

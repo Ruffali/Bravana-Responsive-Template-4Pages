@@ -1,0 +1,89 @@
+#theGoods{
+    margin-bottom: 5%;
+    h1, span, .btn, h4, p{
+        font-family: Lato, sans-serif;
+    }
+    .container{
+        .row{
+            text-align: center;
+            .col-lg-12{
+                h1{
+                    span{
+                        color: #636363;
+                    }
+                }
+                hr{
+                    width: 28%;
+                    padding: 0.1%;
+                    background: #636363;
+                    margin: 0 auto;
+                    }
+                    .secondHr{
+                        margin-top: 0.2%;
+                    }
+            }
+            .mainWord{
+                margin: 5% 0% 5% 0%;
+            }
+            .insidePhoto{
+                position: absolute;
+                top: 40%;
+                right: 30%;  
+                h4{
+                    color: #000;
+                }
+                .btn {
+                    background-color: #69B417;
+                    color: #fff;
+                    float: right;
+                    &:hover{
+                        background-color: rgb(95, 156, 28);
+                    }
+                }
+                .fa{
+                    color: #fff!important;
+                    margin-left: 5%;
+                    font-size: 1.3em;
+                    font-weight: bold;
+                }
+            } 
+            .col-lg-4{
+                img{
+                    position: relative;
+                    width: 105.3%;
+                    height: auto;
+                    cursor: pointer;
+                    opacity: 0.8;
+                }
+            }
+            .col-lg-8{
+                .row{
+                    .col-lg-6{
+                        img{
+                            position: relative;
+                            width: 105%;
+                            height: auto;
+                            cursor: pointer;
+                            opacity: 0.8;
+                        }
+                    }
+                }
+                .row{
+                    .col-lg-12{
+                        img{
+                            position: relative;
+                            margin-top: 1.5%;
+                            width: 102%;
+                            height: auto;
+                            cursor: pointer;
+                            opacity: 0.8;
+                        }
+                        .insidePhoto{
+                            right: 40%;  
+                        } 
+                    }
+                }
+            }
+        }
+    }
+}

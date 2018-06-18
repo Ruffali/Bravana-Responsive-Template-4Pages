@@ -1,0 +1,72 @@
+.carousel2{
+    margin-bottom: 5%;
+    margin-top: 5%;
+    position: relative;
+    .insideItem1, p, .insideItem2, .insideItem3{
+        font-family: Lato, sans-serif;
+    } 
+    .item{
+        height: 500px;
+    }
+    .item1{
+        background: rgba(128, 128, 128, 0.555);
+        background: url("../image/bravana-all-homes.png") no-repeat center/contain;
+        position: relative;
+        .insideItem1{
+            text-align: center;
+            padding-top: 6%;
+            color: black;
+            p{
+                color: black;
+            }
+        }
+    }
+    .item2{
+        background: rgba(128, 128, 128, 0.555);
+        background: url("../image/theme-values.png") no-repeat center/contain;
+        position: relative;
+        .insideItem2{
+            float: right;
+            padding:3% 2% 0% 0%;
+            color: black;
+            font-family: Lato, sans-serif;
+            text-shadow: 0 0 3px green;
+            p{
+                color: black;
+            }
+        }
+    }
+    .item3{
+         background: rgba(128, 128, 128, 0.555);
+         background: url("../image/responsive.png") no-repeat center/contain;
+        background-image: url('../image/responsive.png');
+        position: relative;
+        .insideItem3{
+            float: right;
+            padding:3% 2% 0% 0%;
+            color: black;
+            text-shadow: 0 0 3px green;
+            p{
+                color: black;
+            }
+        }
+    }
+    .myAngle{
+        font-size: 2.5em;
+        position: absolute;
+        top: 46%;
+        z-index: 11111;
+        cursor: pointer;
+        color: white;
+        background: linear-gradient(rgba(128, 128, 128, 0.589),rgba(128, 128, 128, 0.527));
+        width: 4%;
+        text-align: center;
+        border-radius: 10px;
+      }
+      .angles .fa-angle-double-left{
+        left: 60px;
+      }
+      .angles .fa-angle-double-right{
+        right: 60px;
+      }
+}
